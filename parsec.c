@@ -392,9 +392,9 @@ static PyObject* moduleinit(void)
 }
 
 #if PY_MAJOR_VERSION >= 3
-extern PyMODINIT_FUNC PyInit_parsecmod(void);
+extern PyMODINIT_FUNC PyInit_parsec(void);
 
-PyMODINIT_FUNC PyInit_parsecmod(void)
+PyMODINIT_FUNC PyInit_parsec(void)
 {
   return moduleinit();
 }
